@@ -94,12 +94,12 @@
                                         }
 
 body                                    {
-                                            background: #0055BB;
+                                            background: #D6DBDB ;
                                             margin: 0 0 10px;
                                             padding: 0;
                                         }
 
-.jbg                                    {   background: #f4f4f4 url('../images/bg_body.png') no-repeat 98% 95%; }
+.jbg                                    {   background: #D6DBDB url('../images/jokte.png') no-repeat 98% 95%; }
 
 .copyright                              {   clear: both; color: #999; font-size: 13px; text-shadow: 1px 1px 0 #fff; text-align: center; padding: 10px 0; }
 
@@ -108,7 +108,7 @@ body                                    {
                                             height: 35px;
                                             float: left;
                                             position: relative;
-                                            background: #0055BB;
+                                            background: -moz-linear-gradient(-80deg, #679b91, #EEEEEE);
                                         }
 
     #tophead .title                     {
@@ -223,7 +223,7 @@ footer .version                         {   margin: 10px; text-align: center; }
                                             height: 18px;
                                             line-height: 18px;
                                             padding: 5px 5px 5px 14px;
-                                            background: #0055BB;
+                                            background: -moz-linear-gradient(-80deg, #679b91, #EEEEEE);
                                         }
 
 .box-top span                           {
@@ -347,9 +347,14 @@ BODY.error                              {   background: #ccc; }
 #toolbar-box,
 #submenu a.active                       {   background:#fff!important; }
 
-#login-container                        {   width: 100%; margin: 120px auto 0; }
+/*login*/
+#login-container                        {   width: 100%; margin: 8% auto 26px auto; }
 
-#logo-box                               {   color: #fff; position: absolute; bottom: 40px; right: 40px; }
+#login-page {
+    background: /*url(../images/jokte.png) repeat-x 0 100% #D9D9D9;*/
+}
+
+#logo-box                               {  color: transparent; /*background:url("../images/logo250.png") no-repeat #D9D9D9;  height: 120px; width: 250px; margin:0 auto;box-shadow: 0 0 20px #D9D9D9, 20px 15px 40px #D9D9D9, -20px 15px 40px #D9D9D9, -20px -15px 40px #D9D9D9, 20px -15px 40px #D9D9D9;*/}
     #logo-box #logo                     {   font-size: 42px; }
     #site-box                           {   position: absolute; bottom: 40px; left: 40px; }
         #site-box a                     {   color: #fff; font-size: 16px; }
@@ -362,11 +367,14 @@ BODY.error                              {   background: #ccc; }
                                         }
 
 #login-box                              {
-                                            background: #fff;
+                                            background: url("../images/jokte-iso.png") #fff no-repeat 110% 90%;
                                             display: block;
                                             min-height: 240px;
                                             margin: 0 auto 0;
-                                            width: 285px;
+                                            width: 400px;
+											border:1px solid #ccc !important;
+											box-shadow:1px 1px 40px rgba(7, 86, 118, 0.75);
+											
                                         }
 
     #login-box .loginform               {   background: transparent; border: none; padding-bottom: 0; }

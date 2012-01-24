@@ -209,7 +209,7 @@ input[type="button"]:active
 
         #actions li a                   {
                                             float: none;
-                                            background: #ddd;
+                                            background: -moz-linear-gradient(-80deg, #009696, #EEEEEE);
                                             border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;
                                             border: 1px solid #ccc; border-top: 1px solid #e4e4e4!important; border-bottom: 1px solid #ccc!important;
                                             color: #297BA2!important;
@@ -260,17 +260,17 @@ input#upload-submit,
 #toolbar-save-new a,
 #toolbar-save-copy a,
 #toolbar-delete a                       {
-                                            border: 1px solid #38B02F;
-                                            background: #34B62A;
-                                            background: -moz-linear-gradient(-90deg,#52D747,#34B62A);
-                                            background: -o-linear-gradient(top, #52D747, #34B62A);
-                                            background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #52D747),color-stop(1, #34B62A));
-                                            background: -webkit-linear-gradient(#52D747, #34B62A); 
-                                            background: linear-gradient(top, #52D747, #34B62A);
-                                            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#52D747', EndColorStr='#34B62A');
+                                            border: 1px solid #ccc;
+                                            background: #D6DBDB;
+                                            background: -moz-linear-gradient(-90deg,#fff,#D6DBDB);
+                                            background: -o-linear-gradient(top, #52D747, #D6DBDB);
+                                            background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #52D747),color-stop(1, #D6DBDB));
+                                            background: -webkit-linear-gradient(#52D747, #D6DBDB); 
+                                            background: linear-gradient(top, #52D747, #D6DBDB);
+                                            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#52D747', EndColorStr='#D6DBDB');
                                             /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#52D747', 
-                                            EndColorStr='#34B62A')";*/
-                                            color: #fff!important;
+                                            EndColorStr='#D6DBDB')";*/
+                                            color: #075676!important;
                                             cursor: pointer;
                                             display: inline-block;
                                             font-weight: bold;
@@ -279,7 +279,7 @@ input#upload-submit,
                                             margin-right: 10px;
                                             padding: 6px 18px;
                                             text-decoration: none;
-                                            text-shadow: 0 0 2px #555;
+                                           
                                         }
                                         
     #bulkActions #toolbar-delete a      {
@@ -324,8 +324,8 @@ input#upload-submit:hover,
 #toolbar-save-new a:hover,
 #toolbar-save-copy a:hover,
 #toolbar-delete a:hover                 {
-                                            border-color: #409239;
-                                            text-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+                                            border-color: #999;
+                                            text-shadow: 1px 1px 0 rgba(77,45,21,0.3);
                                         }
 
 #toolbar-delete a:hover                 {   border-color: #BE2700; }
@@ -337,7 +337,7 @@ input#upload-submit:hover,
 #toolbar-apply a:active,
 #toolbar-save a:active,
 #form-login input.hidebtn:active, #form-login input.hidebtn:focus,
-input#upload-submit:active              {   background: #34B62A!important; border-color:#409239; }
+input#upload-submit:active              {   background: -moz-linear-gradient(-90deg, #D6DBDB, #FFFFFF ); border: rgba(205,205,205,0.4); }
 
 #toolbar-save-new a,
 #toolbar-save-copy a                    {
