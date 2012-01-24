@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id -->
+<metafile version="1.7"  client="site">
+	<name>Español (ES)</name>
+	<version>1.0.0</version>
+    	<creationDate>2012-01-12</creationDate>
+    	<author>Spanish Translation Team: Comunidad Jokte</author>
+	<authorEmail>info@jokte.org</authorEmail>
+	<authorUrl>www.jokte.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters and comunidadjoomla.org. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>Spanish language pack for Joomla! 1.7.3 - Site</description>
+	<metadata>
+		<name>Español (Español Latinoamericano)</name>
+		<tag>es-LA</tag>
+		<rtl>0</rtl>
+		<locale>es_LA.utf8, es_LA.UTF-8, es_LA, spanish</locale>
+		<firstDay>1</firstDay>
+	</metadata>
+	<params />
+</metafile>

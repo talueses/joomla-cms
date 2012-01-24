@@ -1,0 +1,135 @@
+/**
+ * @author Design & Accessible Team ( Angie Radtke  )
+ * @package Joomla
+ * @subpackage Accessible-Template-Beez
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant to the
+ * GNU General Public License, and as distributed it includes or is derivative
+ * of works licensed under the GNU General Public License or other free or open
+ * source software licenses. See COPYRIGHT.php for copyright notices and
+ * details.
+*/
+@font-face {
+    font-family: 'jokteText';
+    src: url('../fonts/jokteText.eot');
+    src: url('../fonts/jokteText.eot?#iefix') format('embedded-opentype'),
+        url("../fonts/jokteText.otf") format("opentype"),
+        url('../fonts/jokteText.woff') format('woff'),
+        url('../fonts/jokteText.ttf') format('truetype'),
+        url('../fonts/jokteText.svg#jokteText') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: normal 12px/14px 'jokteText',sans;
+    background: #fff;
+    color: #000000;
+    font-size: 100.1%;
+    padding: 0px;
+    text-align: center;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+div#cls {
+    clear: both;
+    height: 0px;
+    width: 0px;
+}
+
+div#top, div#mmarquee ,  div#content, div#bottom, div#myright{
+    margin: 0px auto;
+    width: 95%;
+}
+
+div#mmarquee div.custom table {
+    border: 3px #ad885f dashed;
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+    height: 200px;
+    text-align: justify;
+}
+
+div#logo, div#tmen,  div#cpy, div#bmen {
+    float: left;
+}
+
+div#logo {
+    width: 300px;
+}
+
+div#logo img {
+    width: 200px;
+}
+
+div#tmen {
+    width: 590px;
+    margin-left: 20px;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 10px 20px;
+    border-top: 1px #ad885f solid;
+    border-bottom: 1px #ad885f solid;
+    height: 25px;
+}
+
+ul.menu li {
+    float: left;
+    padding: 5px 30px;
+}
+
+div#cpy {
+    width: 250px;
+    color: #ad885f;
+    text-align: justify;
+}
+
+div#bmen {
+    width: 550px;
+    margin-left: 50px;
+}
+
+div#micon, div#snet {
+    float: right;
+    width: 350px;
+}
+
+body.contentpane {
+    width:auto;
+    margin:10px;
+    text-align: left;
+}
+
+img { border: 0 none; }
+
+div#content div div.cols-3 div.item {
+    float: left;
+    text-align: left;
+    width: 30%;
+    margin-left: 25px;
+}
+
+div#content div div.cols-3 div.item h2 {
+    padding: 15px 10px;
+    background: #f2f2f2;
+    border: 1px #cccccc solid;
+    height: 15px;
+}
+
+div#content div div.cols-3 div.item p {
+    padding-left: 20px;
+    font: normal 12px/14px 'jokteText',sans;
+}
